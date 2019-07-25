@@ -93,11 +93,15 @@ ul.slide-content-1 { position:absolute; top:0px; z-index: 2147483647; right:165p
 .sidebar .menu-contain {  background: url("../images/menu-bg.png") repeat-y scroll left top transparent; display: inline-block; padding-top: 10px; }
 .sidebar .menu-contain2{ background: url("../images/menu-bg.png") repeat-y scroll left top transparent; display: inline-block; padding-top: 10px; }
 .sidebar .menu-contain .accordion-style1 li { background: url("../images/menu-bottom-border.png") no-repeat scroll 6px bottom transparent; }
-.sidebar .menu-contain .accordion-style1 li.active { background: url("../images/active-menu.png") no-repeat scroll left bottom transparent; }
-.sidebar .menu-contain .accordion-style1 li.active a { font-weight: bold; padding: 5px 10px; }
-.sidebar .menu-contain .accordion-style1 li a { padding: 12px 10px; }
+.sidebar .menu-contain  .accordion-style2 li { background: url("../images/menu-bottom-border.png") no-repeat scroll 6px bottom transparent; }
+.sidebar .menu-contain .accordion-style1  li.active { background: url("../images/active-menu.png") no-repeat scroll left bottom transparent; }
+.sidebar .menu-contain .accordion-style2  li.active { background: url("../images/active-menu.png") no-repeat scroll left bottom transparent; }
+.sidebar .menu-contain .accordion-style1 .accordion-style2 li.active a { font-weight: bold; padding: 5px 10px; }
+.sidebar .menu-contain .accordion-style1 .accordion-style2 li a { padding: 12px 10px; }
 .accordion-style1 li a { color: #ffffff; font-size: 17px; text-transform: uppercase; }
-.accordion-style1 li a:hover { width: 254px; background-color: rgba(0, 0, 0, 0.5);}
+.accordion-style2 li a { color: #ffffff; font-size: 17px; text-transform: uppercase; }
+.accordion-style1 li a:hover { background-color: rgba(0, 0, 0, 0.5);}
+.accordion-style2 li a:hover { width: 254px; background-color: rgba(0, 0, 0, 0.5);}
 /* Twiter */
 .mb-twiter-box { display: none; }
 .twitter-list p { word-wrap: break-word;}
